@@ -1,22 +1,22 @@
 extends layout
 block content
  .container
-  h1 Register
+  h1 Book your tickets 
   p.lead
    form(role='form', action='/', method='post')
     .form-group
-     label(for='username') Username
-     input.form-control(type='text', id='user', name='username', placeholder='enter a username')
+     label(for='username') Movie name
+     input.form-control(type='text', id='user', name='username', placeholder='enter movie name')
     .form-group
-     label(for='password')  Password
-     input.form-control(type='password', id='password', name='password', placeholder='enter a password')
+     label(for='password')  Location
+     input.form-control(type='password', id='password', name='password', placeholder='enter location')
     .form-group
-     label(for='email')  Email
-     input.form-control(type='email', id='email', name='email', placeholder='enter an email address')
+     label(for='email')  Show time
+     input.form-control(type='email', id='email', name='email', placeholder='enter showtime')
     .form-group
-     label(for='confirm') Confirm Password
-     input.form-control(type='password', id='confirm', name='confirm', placeholder='confirm your password')
-    button.btn.btn-primary(type='submit' ) Submit
+     label(for='confirm') Seat number
+     input.form-control(type='password', id='confirm', name='confirm', placeholder='enter your Seat number')
+    button.btn.btn-primary(type='submit' ) Book
     &nbsp;
     a.btn.btn-default(role='button', href='/') Cancel
  
