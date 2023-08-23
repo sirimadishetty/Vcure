@@ -305,8 +305,8 @@ body {
   font-family: "Cabin", Arial, sans-serif;
   font-size: 14px;
   line-height: 1.428571429;
-  color: #ffffff;
-  background-color: #93ce7b;
+  color: #2E86C1;
+  background-color: #fdfefd;
 }
 
 input,
@@ -483,7 +483,7 @@ h6 small,
 .h6 small {
   font-weight: normal;
   line-height: 1;
-  color: #d89231;
+  color: #21C18C;
 }
 
 h1,
@@ -4699,8 +4699,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-default {
-  background-color: #ad1d28;
-  border-color: #911821;
+  background-color: #1b4f72;
+  border-color: lightblue;
 }
 
 .navbar-default .navbar-brand {
@@ -4724,14 +4724,14 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
   color: #ffffff;
-  background-color: #d92432;
+  background-color: lightblue;
 }
 
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #ffffff;
-  background-color: #d92432;
+  background-color: lightblue;
 }
 
 .navbar-default .navbar-nav > .disabled > a,
@@ -5214,16 +5214,16 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .label-warning {
-  background-color: #debb27;
+  background-color: #229954;
 }
 
 .label-warning[href]:hover,
 .label-warning[href]:focus {
-  background-color: #b6991c;
+  background-color: #229954;
 }
 
 .label-danger {
-  background-color: #df6e1e;
+  background-color: #229954;
 }
 
 .label-danger[href]:hover,
@@ -5242,7 +5242,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
-  background-color: #ad1d28;
+  background-color: #229954;
   border-radius: 10px;
 }
 
@@ -5681,6 +5681,7 @@ a.list-group-item:focus {
 
 .panel-body {
   padding: 15px;
+  background-color:white;
 }
 
 .panel-body:before,
@@ -5832,13 +5833,13 @@ a.list-group-item:focus {
 }
 
 .panel-primary {
-  border-color: #ad1d28;
+  border-color: #21618c;
 }
 
 .panel-primary > .panel-heading {
   color: #ffffff;
-  background-color: #ad1d28;
-  border-color: #ad1d28;
+  background-color: #21618c;
+  border-color: #21618c;
 }
 
 .panel-primary > .panel-heading + .panel-collapse .panel-body {
@@ -5925,8 +5926,8 @@ a.list-group-item:focus {
   min-height: 20px;
   padding: 19px;
   margin-bottom: 20px;
-  background-color: #0d747c;
-  border: 1px solid #0a565c;
+  background-color: #f7f9fa;
+  border: 1px solid white;
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
           box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
@@ -7323,7 +7324,7 @@ legend {
 }
 
 .list-group-item {
-  background-color: #aa13135c;
+  background-color: lightblue;
 }
 
 .popover {

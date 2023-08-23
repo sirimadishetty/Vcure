@@ -1,21 +1,21 @@
 extends layout
 block content
  .container
-  h1 Book your tickets 
+  h1 Book your appointment
   p.lead
    form(role='form', action='/', method='post')
     .form-group
-     label(for='username') Movie name
-     input.form-control(type='text', id='user', name='username', placeholder='enter movie name')
+     label(for='username') Name
+     input.form-control(type='text', id='user', name='username', placeholder='enter your name')
     .form-group
-     label(for='password')  Location
-     input.form-control(type='password', id='password', name='password', placeholder='enter location')
+     label(for='password')  Hospital name
+     input.form-control(type='password', id='password', name='password', placeholder='enter selected hospital name')
     .form-group
-     label(for='email')  Show time
-     input.form-control(type='email', id='email', name='email', placeholder='enter showtime')
+     label(for='email')  Appointment time
+     input.form-control(type='email', id='email', name='email', placeholder='enter time')
     .form-group
-     label(for='confirm') Seat number
-     input.form-control(type='password', id='confirm', name='confirm', placeholder='enter your Seat number')
+     label(for='confirm') Cause
+     input.form-control(type='password', id='confirm', name='confirm', placeholder='Mention your cause')
     button.btn.btn-primary(type='submit' ) Book
     &nbsp;
     a.btn.btn-default(role='button', href='/') Cancel
