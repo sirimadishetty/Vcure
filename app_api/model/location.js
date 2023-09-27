@@ -28,4 +28,4 @@ var openingTimeSchema = new mongoose.Schema({
     }
 });
 mongoose.model('openTime', openingTimeSchema);
- mongoose.model('review', reviewSchema);
+mongoose.model('review', reviewSchema);
